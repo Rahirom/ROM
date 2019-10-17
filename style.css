@@ -153,10 +153,10 @@ img{
     }
 
     .sns-icon{
-      width:30%;
+      width:25%;
       display: inline-block;
       position: relative;
-      margin: 4px;
+      margin: 8px;
       float: left;
     }
 
@@ -319,7 +319,7 @@ img{
     width:25%;
     display: inline-block;
     position: relative;
-    margin: 4px;
+    margin: 8px;
     float: left;
   }
 
@@ -484,10 +484,10 @@ img{
   }
 
   .sns-icon{
-    width:30%;
+    width:25%;
     display: inline-block;
     position: relative;
-    margin: 4px;
+    margin: 8px;
     float: left;
   }
 
