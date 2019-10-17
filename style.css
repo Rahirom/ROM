@@ -154,7 +154,7 @@ img{
 
     .sns-icon{
       width:20%;
-      max-width:56px;
+      max-width:40px;
       display: inline-block;
       position: relative;
       margin: 8px;
@@ -321,7 +321,7 @@ img{
     min-width:36px;
     display: inline-block;
     position: relative;
-    margin: 8px;
+    margin-right: 16px;
     float: left;
   }
 
@@ -489,7 +489,7 @@ img{
     width:25%;
     display: inline-block;
     position: relative;
-    margin: 8px;
+    margin-right: 16px;
     float: left;
   }
 
