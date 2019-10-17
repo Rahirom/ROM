@@ -9,7 +9,7 @@
   font-family: 'Audrey Normal';
   font-style: normal;
   font-weight: normal;
-  src: local('Audrey Normal'), url('assetsAudrey-Normal.woff') format('woff');
+  src: local('Audrey Normal'), url('assets/Audrey-Normal.woff') format('woff');
 }
 
 h1 {
