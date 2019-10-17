@@ -322,6 +322,7 @@ img{
     display: inline-block;
     position: relative;
     margin-right: 16px;
+    margin-bottom:16px;
     float: left;
   }
 
@@ -490,6 +491,7 @@ img{
     display: inline-block;
     position: relative;
     margin-right: 16px;
+    margin-bottom:16px;
     float: left;
   }
 
