@@ -2,14 +2,14 @@
   font-family: 'Audrey Medium';
   font-style: normal;
   font-weight: normal;
-  src: local('Audrey Medium'), url('Audrey-Medium.woff') format('woff');
+  src: local('Audrey Medium'), url('assets/Audrey-Medium.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Audrey Normal';
   font-style: normal;
   font-weight: normal;
-  src: local('Audrey Normal'), url('Audrey-Normal.woff') format('woff');
+  src: local('Audrey Normal'), url('assetsAudrey-Normal.woff') format('woff');
 }
 
 h1 {
