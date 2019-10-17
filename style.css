@@ -169,9 +169,10 @@ img{
       margin-top: 8px;
       border-left: solid 1px #232323;
       border-top: solid 1px #232323;
-      border-bottom: solid 1px #232323;
       overflow:hidden scroll;
       margin-bottom:56px;
+      padding-left: 8px;
+      padding-top: 8px;
     }
 
     .c-colm{
@@ -332,7 +333,6 @@ img{
     padding: 8px;
     border-left: solid 1px #232323;
     border-top: solid 1px #232323;
-    border-bottom: solid 1px #232323;
     width:40%;
     height:360px;;
     overflow:scroll;
@@ -499,7 +499,6 @@ img{
     padding: 8px;
     border-left: solid 1px #232323;
     border-top: solid 1px #232323;
-    border-bottom: solid 1px #232323;
     width:40%;
     height:360px;;
   }
