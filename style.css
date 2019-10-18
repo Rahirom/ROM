@@ -390,7 +390,7 @@ img{
 }
 
 h2 {
-  font-family: 'Audrey Medium';
+  font-family: 'Audrey Normal';
   font-size: 36px;
   margin-top: 0;
   padding: 0;
@@ -399,7 +399,7 @@ h2 {
 }
 
 h3{
-  font-family: 'Audrey Normal';
+  font-family: 'Noto Sans JP';
   font-size: 28px;
   margin-top: 0;
   padding: 0;
