@@ -352,6 +352,7 @@ img{
   .c-card{
     display:inline-block;
     width:33%;
+    overflow: scroll;
     margin-top:40px;
     margin-left:8px;
     margin-right:8px;
@@ -558,6 +559,7 @@ small{
   .c-card{
     display:inline-block;
     width:33%;
+    overflow: scroll;
     float:right;
 
     margin-top:40px;
