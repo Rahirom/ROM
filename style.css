@@ -341,6 +341,7 @@ img{
   .c-colm{
     position: relative;
     margin: 0;
+    margin-bottom:40px;
     padding: 0px;
     width: 100%;
     display: flex;
