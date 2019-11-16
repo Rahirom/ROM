@@ -340,8 +340,10 @@ img{
 
   .c-colm{
     position: relative;
-    margin: 0;
-    margin-bottom:40px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top:0;
+    margin-bottom: 80px;
     padding: 0px;
     width: 100%;
     display: flex;
@@ -547,6 +549,7 @@ small{
   .c-colm{
     position: relative;
     margin: 0;
+    margin-bottom:80px;
     padding: 0;
     width: 100%;
     display: flex;
