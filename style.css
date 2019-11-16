@@ -31,7 +31,7 @@ h2 {
 h3{
   font-family: 'Noto Sans JP';
   font-size: 28px;
-  margin-top: 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -199,12 +199,13 @@ img{
     .c-c-text{
       padding-left: 16px;
       overflow: hidden;
+      margin-bottom:40px;
     }
 
     .footer{
       margin-left: 16px;
       margin-right: 16px;
-      margin-top: 40px;
+      margin-top: 120px;
       border-top: solid 1px #232323;
     }
 
@@ -374,12 +375,13 @@ img{
     margin:0;
     padding:0;
     overflow: hidden;
+    margin-bottom:40px;
   }
 
   .footer{
     margin-left: 16px;
     margin-right: 16px;
-    margin-top: 40px;
+    margin-top: 120px;
     border-top: solid 1px #232323;
   }
 }
@@ -405,7 +407,7 @@ h2 {
 h3{
   font-family: 'Noto Sans JP';
   font-size: 28px;
-  margin-top: 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -580,12 +582,13 @@ small{
     width:100%;
     margin:0;
     padding:0;
+    margin-bottom:40px;
   }
 
   .footer{
     margin-left: 16px;
     margin-right: 16px;
-    margin-top: 40px;
+    margin-top: 120px;
     border-top: solid 1px #232323;
   }
 }
