@@ -555,7 +555,7 @@ small{
   }
   
   .schedule-detail{
-    margin-top:0;
+    margin-top:0;!important
     top:-8px;
   }
 
