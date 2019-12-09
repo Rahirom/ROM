@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Noto Sans JP', sans-selif;
+  font-family: 400, 16px,'Noto Sans JP', sans-selif;
   line-height: 1.75em;
 }
 
@@ -514,6 +514,8 @@ h6 {
   font: 700 16px "Noto Sans JP";
   margin-top: 48px;
 }
+
+
 
 .post-caption *+hr {
   margin-top: 16px
