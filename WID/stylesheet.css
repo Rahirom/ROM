@@ -405,7 +405,7 @@ body {
   font: bold 16px/30px "Noto Sans JP";
   text-align: center;
   word-wrap: break-word;
-  background-color: linear-gradient(transparent 0%, #f5ff00 60%)
+  background-image: linear-gradient(transparent 0%, #f5ff00 60%)
 }
 
 .posts-header:hover {
@@ -422,14 +422,14 @@ body {
 
 .is-grid .post {}
 
-.post-title{
+.post-title strong{
   font: 700 32px "Noto Sans JP";
   word-wrap: break-word;
-  background: linear-gradient(transparent 55%, #F5FF00 20%);
+  background:linear-gradient(transparent 55%, #F5FF00 20%);
 }
 
-.post-title:hover strong {
-  background-image: none;
+.post-title strong:hover {
+  background: none;
   border-bottom: solid;
   border-width: 1px;
 
