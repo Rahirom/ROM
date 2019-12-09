@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 400, 16px,'Noto Sans JP', sans-selif;
+  font-family: 'Noto Sans JP', sans-selif;
   line-height: 1.75em;
 }
 
@@ -515,7 +515,10 @@ h6 {
   margin-top: 48px;
 }
 
-
+p{
+  font: 400, 16px, "Noto Sans JP";
+  line-height: 1.75em;
+}
 
 .post-caption *+hr {
   margin-top: 16px
@@ -842,7 +845,7 @@ h6 {
     right: 24px;
     width: 24px;
     height: 24px;
-    background-image: url(https://r0m.tokyo/WIS/humberger.png);
+    background-image: url(./humberger.png);
     background-size: cover;
   }
 
@@ -874,7 +877,7 @@ h6 {
     width: 24px;
     height: 24px;
     top:32px;
-    background-image: url(https://r0m.tokyo/WIS/close.png);
+    background-image: url(./close.png);
     background-size: cover;
   }
 
