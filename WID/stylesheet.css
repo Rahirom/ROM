@@ -422,7 +422,7 @@ body {
 
 .is-grid .post {}
 
-.post-title strong {
+.post-title{
   font: 700 32px "Noto Sans JP";
   word-wrap: break-word;
   background: linear-gradient(transparent 55%, #F5FF00 20%);
@@ -471,7 +471,8 @@ body {
 }
 
 .post-caption a {
-  color: #000
+  color: #000;
+  font: 400 16px "Noto Sans JP";
 }
 
 .post-caption blockquote {
@@ -516,7 +517,7 @@ h6 {
 }
 
 p{
-  font: 400, 16px, "Noto Sans JP";
+  font: 400 16px "Noto Sans JP";
   line-height: 1.75em;
 }
 
@@ -526,6 +527,7 @@ p{
 
 .post-caption *+p {
   margin-top: 16px
+  font-weight: 400;
 }
 
 .post-caption *+ul, .post-caption *+ol {
