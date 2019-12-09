@@ -527,6 +527,7 @@ p{
 
 .post-caption *+p {
   margin-top: 16px
+  font-weight: 400;
 }
 
 .post-caption *+ul, .post-caption *+ol {
