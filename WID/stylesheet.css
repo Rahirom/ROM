@@ -908,6 +908,11 @@ p{
     right: 24px;
     width: 24px;
     height: 16px;
+    visibility: visible;
+  }
+
+  #drawer-checkbox:checked~.menu-responsive-icon {
+    visibility: collapse;
   }
 
   .menu-list {
@@ -939,6 +944,11 @@ p{
     width: 24px;
     height: 24px;
     top:32px;
+    visibility: collapse;
+  }
+
+  #drawer-checkbox:checked~.menu-responsive-icon-close {
+    visibility: visible;
   }
 
   .menu-item {
