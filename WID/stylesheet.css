@@ -932,6 +932,7 @@ p{
   .menu-responsive-icon-close {
     position: absolute;
     display: block;
+    z-index:11;
     right: 56px;
     width: 24px;
     height: 24px;
