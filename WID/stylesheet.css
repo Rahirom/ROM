@@ -238,11 +238,13 @@ body {
 }
 
 .menu-slash {
-  width: 14px;
+  top:4px;
+  bottom:0px;
+  width: 12px;
   height: 14px;
   display: inline-block;
   background-image: url(slash.png);
-  background-size: 14px 14px;
+  background-size: 12px 14px;
 }
 
 .menu-link {
@@ -978,11 +980,11 @@ p{
   }
 
   .menu-slash {
-    width: 14px;
+    width: 11px;
     height: 14px;
     display: inline-block;
     background-image: url(slash_w.png);
-    background-size: 14px 14px;
+    background-size: 12px 14px;
     background-color: none;
   }
 
