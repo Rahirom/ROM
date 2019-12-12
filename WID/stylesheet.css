@@ -503,22 +503,22 @@ body {
   margin-top: 48px
 }
 
-h3 {
+.post-caption h3 {
   font: 700 24px "Noto Sans JP";
   margin-top: 48px;
 }
 
-h4 {
+.post-caption h4 {
   font: 700 20px "Noto Sans JP";
   margin-top: 48px;
 }
 
-h5 {
+.post-caption h5 {
   font: 700 18px "Noto Sans JP";
   margin-top: 48px;
 }
 
-h6 {
+.post-caption h6 {
   font: 700 16px "Noto Sans JP";
   margin-top: 48px;
 }
