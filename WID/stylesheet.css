@@ -44,7 +44,6 @@ img {
   border: none;
   height: auto;
   max-width: 100%;
-  vertical-align: middle
 }
 
 table {
@@ -635,12 +634,12 @@ p{
   padding-left: 16px;
 }
 
-img .facebook {
-  filter:Brightness(100%);
+.facebook {
+  filter: Brightness(100%);
 }
 
-img .facebook:hover {
-  filter:Brightness(50%);
+.facebook:hover {
+  filter: Brightness(50%);
 }
 
 
