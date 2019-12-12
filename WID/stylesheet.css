@@ -627,6 +627,7 @@ p{
 .post-sns-list {
   display: inline;
   float: right;
+  vertical-align: middle;
 }
 
 .post-sns-icon {
@@ -634,11 +635,11 @@ p{
   padding-left: 16px;
 }
 
-.post-sns-icon .facebook {
+img .facebook {
   filter:Brightness(100%);
 }
 
-.post-sns-icon .facebook:hover {
+img .facebook:hover {
   filter:Brightness(50%);
 }
 
