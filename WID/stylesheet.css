@@ -552,6 +552,12 @@ p{
   padding-left: 0
 }
 
+.post-caption figure{
+  text-align: center;
+}
+
+.
+
 .post-header-link:before {
   content: '\203A';
   display: block;
@@ -628,6 +634,13 @@ p{
   padding-left: 16px;
 }
 
+.post-sns-icon .facebook {
+  filter:Brightness(100%);
+}
+
+.post-sns-icon .facebook:hover {
+  filter:Brightness(50%);
+}
 
 
 .post-tag-link:hover {
@@ -908,11 +921,11 @@ p{
     right: 24px;
     width: 24px;
     height: 16px;
-    visibility: visible;
+
   }
 
   #drawer-checkbox:checked~.menu-responsive-icon {
-    visibility: collapse;
+    display:none;
   }
 
   .menu-list {
@@ -936,19 +949,18 @@ p{
     right: -32px;
   }
 
+  #drawer-checkbox:checked~.menu-responsive-icon-close {
+    visibility: visible;
+  }
+
   .menu-responsive-icon-close {
     position: absolute;
-    display: block;
+    display:block;
     z-index:11;
     right: 56px;
     width: 24px;
     height: 24px;
     top:32px;
-    visibility: collapse;
-  }
-
-  #drawer-checkbox:checked~.menu-responsive-icon-close {
-    visibility: visible;
   }
 
   .menu-item {
