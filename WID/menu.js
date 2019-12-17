@@ -5,8 +5,5 @@ function toggleNav() {
   hamburger.addEventListener('click', function() {
     body.classList.toggle('nav-open');
   });
-  blackBg.addEventListener('click', function() {
-    body.classList.remove('nav-open');
-  });
 }
 toggleNav();
