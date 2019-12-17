@@ -833,6 +833,7 @@ p {
     background-image: url(main_vi.png);
     background-size: cover;
     overflow-y: hidden;
+    overflow-x: hidden;
   }
 
 
@@ -904,6 +905,7 @@ p {
     z-index: 200;
     overflow-y: auto;
     padding-left: 16px;
+    visibility:hidden;
   }
 
   .hamburger {
@@ -946,6 +948,7 @@ p {
   /* 表示された時用のCSS */
   .nav-open .global-nav {
     right: 0;
+    visibility: visible;
   }
 
   .nav-open .hamburger__line--1 {
