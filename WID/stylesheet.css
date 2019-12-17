@@ -4,16 +4,25 @@
   margin: 0;
   padding: 0;
   font-family: 'Noto Sans JP', sans-selif;
-  line-height: 1.75em;
+
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block
 }
 
+.pc-only {
+  display: inline;
+}
+
+.sp-only {
+  display: none;
+}
+
 a {
   color: inherit;
   text-decoration: none;
+
 }
 
 ol, ul {
@@ -72,24 +81,34 @@ body {
   width: 100%;
   background-image: url(main_vi.png);
   background-size: cover;
-  padding-top: 20px;
+  padding-top: 16px;
   padding-bottom: 20px;
   padding-left: 16%;
   padding-right: 16%;
-  margin-top:40px;
+  margin-top: 40px;
 }
 
-.footer-icon {
-  display: inline-block;
-  margin-right: 8px;
+.footer-menu{
+  display:inline-block;
   top:-8px;
 }
 
+
+.footer-icon {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 16px;
+  top: -8px;
+}
+
 .footer-link {
-  display: inline;
+  display: inline-block;
+  vertical-align: bottom;
   font: 400 14px "Noto Sans JP";
   color: #000;
-  margin-left: 3%;
+  margin-left: 16px;
+  top:2px;
+
 }
 
 .footer a {
@@ -103,7 +122,7 @@ body {
 .footer-copyright {
   float: right;
   height: 100%;
-  margin-top: 7px;
+  margin-top: 16px;
   text-align: right;
   font: 400 10px "Noto Sans JP";
 }
@@ -131,13 +150,6 @@ body {
   width: 90%
 }
 
-.header-avatar {
-  border: 5px solid rgba(255, 255, 255, 0.4);
-  display: inline-block;
-  margin-bottom: 25px;
-  overflow: hidden;
-}
-
 .header-title {
   font: bold 42px "Noto Sans JP";
   word-wrap: break-word;
@@ -156,28 +168,6 @@ body {
 .header-description a {
   border-bottom: 1px solid #fff;
   color: #fff;
-}
-
-#infscr-loading {
-  background-color: #fff;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  bottom: 25px;
-  left: 50%;
-  padding: 5px 10px;
-  position: fixed;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%);
-  text-align: center;
-  z-index: 1000
-}
-
-#infscr-loading img {
-  margin-bottom: 10px
 }
 
 .post-media {
@@ -211,20 +201,6 @@ body {
   display: block;
 }
 
-#drawer-checkbox {
-  display: none;
-}
-
-#drawer-checkbox:checked {}
-
-.menu-responsive-icon {
-  display: none;
-}
-
-.menu-responsive-icon-close {
-  display: none;
-}
-
 .menu-list {
   margin: auto;
   max-width: 1800px;
@@ -237,8 +213,8 @@ body {
 }
 
 .menu-slash {
-  top:4px;
-  bottom:0px;
+  top: 4px;
+  bottom: 0px;
   width: 12px;
   height: 14px;
   display: inline-block;
@@ -249,9 +225,9 @@ body {
 .menu-link {
   display: inline-block;
   font: 700 16px "Noto Sans JP";
-  color:#000;
-  margin-left: 10px;
-  margin-right: 10px;
+  color: #000;
+  padding-left: 10px;
+  padding-right: 10px;
   position: relative;
 }
 
@@ -281,6 +257,11 @@ body {
   display: inline
 }
 
+.lupe {
+  position: relative;
+  top: 8px;
+}
+
 .menu-search {
   border-top: none;
   border-left: none;
@@ -293,14 +274,6 @@ body {
   width: 70px
 }
 
-/*
-.notes-wrapper {
-  color: #888;
-  font: 12px 'Montserrat';
-  margin: 0 auto 50px;
-  padding: 25px;
-
-}*/
 .notes {
   list-style: none
 }
@@ -389,10 +362,14 @@ body {
 
 .container {
   display: relative;
-  margin: 0;
+  position: relative;
+
   max-width: 700px;
+  min-height: 700px;
+
   margin-left: auto;
   margin-right: auto;
+  line-height: 1.75em;
 }
 
 #container .post-caption a {
@@ -429,17 +406,16 @@ body {
 
 .is-grid .post {}
 
-.post-title strong{
+.post-title strong {
   font: 700 32px "Noto Sans JP";
   word-wrap: break-word;
-  background:linear-gradient(transparent 55%, #F5FF00 20%);
+  background: linear-gradient(transparent 55%, #F5FF00 20%);
 }
 
 .post-title strong:hover {
   background: none;
   border-bottom: solid;
   border-width: 1px;
-
 }
 
 .post-date {
@@ -455,8 +431,8 @@ body {
 
 .post-figure-img {
   display: block;
-  height:400px;
-  margin:0 auto;
+  height: 400px;
+  margin: 0 auto;
 }
 
 /*
@@ -523,20 +499,17 @@ body {
   margin-top: 48px;
 }
 
-p{
+p {
   font: 400 16px "Noto Sans JP";
   line-height: 1.75em;
 }
-
-
 
 .post-caption *+hr {
   margin-top: 16px
 }
 
 .post-caption *+p {
-  margin-top: 16px
-  font-weight: 400 14px "Noto Sans JP";
+  margin-top: 16px font-weight: 400 14px "Noto Sans JP";
 }
 
 .post-caption *+ul, .post-caption *+ol {
@@ -551,13 +524,11 @@ p{
   padding-left: 0
 }
 
-.post-caption figure{
+.post-caption figure {
   text-align: center;
 }
 
-.
-
-.post-header-link:before {
+. .post-header-link:before {
   content: '\203A';
   display: block;
   float: left;
@@ -642,7 +613,6 @@ p{
   filter: Brightness(50%);
 }
 
-
 .post-tag-link:hover {
   background: #fff
 }
@@ -712,7 +682,6 @@ p{
 .post-share-item:hover {
   opacity: 1
 }
-
 
 .post-share-item:hover .post-social-list {
   opacity: 1;
@@ -790,69 +759,84 @@ p{
   vertical-align: middle;
   width: 15px
 }
-@media screen and (max-width: 850px) {
-  .container{
+
+@media screen and (max-width: 870px) {
+  .container {
     padding-left: 16%;
     padding-right: 16%;
     max-width: none;
   }
 
+  .footer {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+    height: 176px;
+    background-image: url(main_vi.png);
+    background-size: cover;
+  }
 
-    .footer {
-      padding-top: 16px;
-      padding-bottom: 16px;
-      padding-left: 16px;
-      padding-right: 16px;
-      width: 100%;
-      height:176px;
-      background-image: url(main_vi.png);
-      background-size: cover;
-    }
+  .footer-link {
+    display: block;
+    width: 100%;
+    font: 400 14px "Noto Sans JP";
+    color: #000;
+    margin-top: 16px;
+    margin-left: 0px;
+  }
 
-    .footer-link {
-      display: block;
-      width:100%;
-      font: 400 14px "Noto Sans JP";
-      color: #000;
-      margin-top: 16px;
-      margin-left: 0px;
-    }
+  .footer-icon {
+    display: inline;
+    margin-right: 16px;
+    top: -4px;
+  }
 
-    .footer-icon {
-      display: inline;
-      margin-right: 16px;
-      top:-4px;
-    }
+  .footer a {
+    text-decoration: none;
+  }
 
-    .footer a {
-      text-decoration: none;
-    }
+  .footer a:hover {
+    text-decoration: underline;
+  }
 
-    .footer a:hover {
-      text-decoration: underline;
-    }
-
-    .footer-copyright {
-      float: none;
-      display: block;
-      margin-top: 16px;
-      text-align: left;
-      font: 400 10px "Noto Sans JP";
-      height: auto;
-    }
-
-
-
+  .footer-copyright {
+    float: none;
+    display: block;
+    margin-top: 16px;
+    text-align: left;
+    font: 400 10px "Noto Sans JP";
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 560px) {
+  .pc-only {
+    display: none;
+  }
+
+  .sp-only {
+    display: inline;
+  }
+
   .header {
-    display: absolute;
+    display: block;
+    position: absolute;
     padding-left: 32px;
     padding-right: 32px;
     background-size: cover;
     padding-top: 0px;
+    top:0px;
+    height:298px;
+    width:100%;
+    background-image: url(main_vi.png);
+    background-size: cover;
+    overflow-y: hidden;
   }
+
+
+
 
   .header-wrapper {
     display: -webkit-box;
@@ -873,13 +857,10 @@ p{
     -webkit-order: 2;
     order: 2;
     display: block;
-    margin-top:32px;
-    padding-bottom:0px;
+    margin-top: 32px;
+    padding-bottom: 0px;
   }
 
-  .header-title {
-    font-size: 32px;
-  }
 
   .header-description {
     font-size: 14px;
@@ -888,8 +869,10 @@ p{
   }
 
   .header-title {
+    line-height: 1.2em;
     width: 75%;
     word-break: normal;
+
   }
 
   .menu {
@@ -909,80 +892,103 @@ p{
     margin-top: 32px;
   }
 
-  #drawer-checkbox {
-    display: none;
-  }
-
-  .menu-responsive-icon {
-    display: flex;
+  .global-nav {
     position: absolute;
-    margin-top: 0px;
-    padding-top: 0px;
-    right: 24px;
-    width: 24px;
-    height: 16px;
-
-  }
-
-  #drawer-checkbox:checked~.menu-responsive-icon {
-    display:none;
-  }
-
-  .menu-list {
-    display: inline-block;
-    z-index: 10;
+    right: -320px;
+    top: 0;
     width: 250px;
-    height: 100%;
-    padding-top: 64px;
-    margin-bottom:0px;
-    top: -32px;
-    bottom:0px;
-    position: absolute;
-    right: -282px;
+    height:298px;
+    padding-top: 40px;
     background-color: #000;
-    visibility: collapse;
-    transition: all 300ms 0s ease;
+    transition: all .6s;
+    z-index: 200;
+    overflow-y: auto;
+    padding-left: 16px;
   }
 
-  #drawer-checkbox:checked~.menu-list {
-    visibility: visible;
-    right: -32px;
-  }
-
-  #drawer-checkbox:checked~.menu-responsive-icon-close {
-    visibility: visible;
-  }
-
-  .menu-responsive-icon-close {
+  .hamburger {
     position: absolute;
-    display:block;
-    z-index:11;
-    right: 56px;
-    width: 24px;
-    height: 24px;
-    top:32px;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 300;
   }
+
+  .global-nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .hamburger__line {
+    position: absolute;
+    left: -8px;
+    width: 24px;
+    height: 2px;
+    background-color: #111;
+    transition: all .6s;
+  }
+
+  .hamburger__line--1 {
+    top: 32px;
+  }
+
+  .hamburger__line--2 {
+    top: 39px;
+  }
+
+  .hamburger__line--3 {
+    top: 46px;
+  }
+
+  /* 表示された時用のCSS */
+  .nav-open .global-nav {
+    right: 0;
+  }
+
+  .nav-open .hamburger__line--1 {
+    transform: rotate(45deg);
+    top: 36px;
+    background-color: #fff;
+  }
+
+  .nav-open .hamburger__line--2 {
+    width: 0;
+    left: 50%;
+    background-color: #fff;
+  }
+
+  .nav-open .hamburger__line--3 {
+    transform: rotate(-45deg);
+    top: 36px;
+    background-color: #fff;
+  }
+
+
 
   .menu-item {
     display: inline-block;
     width: 80%;
     margin-top: 0px;
     margin-bottom: 16px;
+
   }
 
   .menu-link {
     display: inline-block;
     font: 700 16px "Noto Sans JP";
-    color:#fff;
+    color: #fff;
     margin-left: 10px;
     margin-right: 10px;
     position: relative;
   }
 
-  .menu-search{
+  .menu-search {
     display: inline-block;
     font: 400 16px "Noto Sans JP";
-    color:#fff;
+    color: #fff;
     border-bottom: solid 1px #000;
     margin-left: 10px;
     margin-right: 10px;
@@ -1017,6 +1023,7 @@ p{
   .container {
     padding-left: 16px;
     padding-right: 16px;
+    margin-top:346px;
   }
 
   .footer {
@@ -1039,7 +1046,7 @@ p{
 
   .footer-icon {
     display: run-in;
-    margin-right: 8px;
+    margin-right: 24px;
   }
 
   .footer a {
