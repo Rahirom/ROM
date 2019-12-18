@@ -762,6 +762,15 @@ figcaption{
   width: 15px
 }
 
+.pager-list{
+
+}
+
+.pager-item{
+  color: #000;
+  font: 400 16px "Noto Sans JP";
+}
+
 @media screen and (max-width: 870px) {
   .container {
     padding-left: 16%;
@@ -812,13 +821,7 @@ figcaption{
     height: auto;
   }
 
-  .pager-list{
-    background-color: #000;
-  }
 
-  .pager-item{
-    background-color: #ff0000;
-  }
 }
 
 @media screen and (max-width: 560px) {
