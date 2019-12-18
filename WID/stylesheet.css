@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   font-family: 'Noto Sans JP', sans-selif;
-
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -22,7 +21,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 a {
   color: inherit;
   text-decoration: none;
-
 }
 
 ol, ul {
@@ -88,11 +86,10 @@ body {
   margin-top: 40px;
 }
 
-.footer-menu{
-  display:inline-block;
-  top:-8px;
+.footer-menu {
+  display: inline-block;
+  top: -8px;
 }
-
 
 .footer-icon {
   display: inline-block;
@@ -107,8 +104,7 @@ body {
   font: 400 14px "Noto Sans JP";
   color: #000;
   margin-left: 16px;
-  top:2px;
-
+  top: 2px;
 }
 
 .footer a {
@@ -363,10 +359,8 @@ body {
 .container {
   display: relative;
   position: relative;
-
   max-width: 700px;
   min-height: 700px;
-
   margin-left: auto;
   margin-right: auto;
   line-height: 1.75em;
@@ -501,6 +495,11 @@ body {
 
 p {
   font: 400 16px "Noto Sans JP";
+  line-height: 1.75em;
+}
+
+small {
+  font: 400 10px "Noto Sans JP";
   line-height: 1.75em;
 }
 
@@ -812,6 +811,8 @@ p {
 }
 
 @media screen and (max-width: 560px) {
+  #tumblr_controls, .tmblr-iframe{display:none !important;}
+
   .pc-only {
     display: none;
   }
@@ -827,17 +828,14 @@ p {
     padding-right: 32px;
     background-size: cover;
     padding-top: 0px;
-    top:0px;
-    height:298px;
-    width:100%;
+    top: 0px;
+    height: 322px;
+    width: 100%;
     background-image: url(main_vi.png);
     background-size: cover;
     overflow-y: hidden;
     overflow-x: hidden;
   }
-
-
-
 
   .header-wrapper {
     display: -webkit-box;
@@ -862,7 +860,6 @@ p {
     padding-bottom: 0px;
   }
 
-
   .header-description {
     font-size: 14px;
     line-height: 24px;
@@ -873,7 +870,6 @@ p {
     line-height: 1.2em;
     width: 75%;
     word-break: normal;
-
   }
 
   .menu {
@@ -898,14 +894,14 @@ p {
     right: -320px;
     top: 0;
     width: 250px;
-    height:298px;
+    height: 322px;
     padding-top: 40px;
     background-color: #000;
     transition: all .6s;
     z-index: 200;
     overflow-y: auto;
     padding-left: 16px;
-    visibility:hidden;
+    visibility: hidden;
   }
 
   .hamburger {
@@ -969,14 +965,11 @@ p {
     background-color: #fff;
   }
 
-
-
   .menu-item {
     display: inline-block;
     width: 80%;
     margin-top: 0px;
     margin-bottom: 16px;
-
   }
 
   .menu-link {
@@ -1026,7 +1019,7 @@ p {
   .container {
     padding-left: 16px;
     padding-right: 16px;
-    margin-top:346px;
+    margin-top: 346px;
   }
 
   .footer {
