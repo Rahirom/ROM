@@ -503,13 +503,14 @@ small {
   line-height: 1.75em;
 }
 
+figcaption{
+  margin-top: 16px font-weight: 400 14px "Noto Sans JP";
+}
+
 .post-caption *+hr {
   margin-top: 16px
 }
 
-.post-caption *+p {
-  margin-top: 16px font-weight: 400 14px "Noto Sans JP";
-}
 
 .post-caption *+ul, .post-caption *+ol {
   margin-top: 16px
@@ -979,6 +980,12 @@ small {
     margin-left: 10px;
     margin-right: 10px;
     position: relative;
+  }
+
+  .lupe {
+    position: relative;
+    top: 8px;
+    padding-left: 16px;
   }
 
   .menu-search {
