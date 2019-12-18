@@ -811,6 +811,14 @@ figcaption{
     font: 400 10px "Noto Sans JP";
     height: auto;
   }
+
+  .pager-list{
+    background-color: #000;
+  }
+
+  .pager-item{
+    background-color: #ff0000;
+  }
 }
 
 @media screen and (max-width: 560px) {
