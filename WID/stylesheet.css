@@ -633,7 +633,7 @@ figcaption{
 }
 
 .post-info-link {
-  color: #bbb;
+  color: #000;
   font: 12px/24px "Montserrat";
   text-transform: lowercase
 }
@@ -648,7 +648,7 @@ figcaption{
 }
 
 .post-info-notes:before {
-  color: #ddd;
+  color: #000;
   content: ' \00b7 ';
   font-weight: 400;
   margin: 0 3px
@@ -745,7 +745,7 @@ figcaption{
 }
 
 .post-social-link {
-  color: #444;
+  color: #000;
   font: bold 10px/25px "Montserrat";
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -766,7 +766,7 @@ figcaption{
 
 }
 
-.pager-item{
+.pager{
   color: #000;
   font: 400 16px "Noto Sans JP";
 }
