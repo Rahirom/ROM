@@ -907,8 +907,8 @@ figcaption{
 
   .hamburger {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 16px;
+    top: 32px;
     width: 40px;
     height: 40px;
     cursor: pointer;
@@ -931,15 +931,15 @@ figcaption{
   }
 
   .hamburger__line--1 {
-    top: 32px;
+    top: 0px;
   }
 
   .hamburger__line--2 {
-    top: 39px;
+    top: 7px;
   }
 
   .hamburger__line--3 {
-    top: 46px;
+    top: 14px;
   }
 
   /* 表示された時用のCSS */
@@ -950,7 +950,7 @@ figcaption{
 
   .nav-open .hamburger__line--1 {
     transform: rotate(45deg);
-    top: 36px;
+    top: 4px;
     background-color: #fff;
   }
 
@@ -962,7 +962,7 @@ figcaption{
 
   .nav-open .hamburger__line--3 {
     transform: rotate(-45deg);
-    top: 36px;
+    top: 4px;
     background-color: #fff;
   }
 
