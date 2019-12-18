@@ -383,7 +383,7 @@ body {
   font: bold 16px/30px "Noto Sans JP";
   text-align: center;
   word-wrap: break-word;
-  background-image: linear-gradient(transparent 0%, #f5ff00 60%)
+
 }
 
 .posts-header:hover {
@@ -399,6 +399,8 @@ body {
 }
 
 .is-grid .post {}
+
+
 
 .post-title strong {
   font: 700 32px "Noto Sans JP";
