@@ -337,24 +337,13 @@ body {
 }
 
 .pager-link {
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  color: #fff;
   display: inline-block;
-  font: 14px/30px "Montserrat";
   height: 30px;
   text-align: center;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -o-transition: all 0.4s;
   transition: all 0.4s;
   width: 30px
 }
 
-.pager-link:hover, .pager-link.is-active {
-  background: #fff
-}
 
 .container {
   display: relative;
@@ -557,7 +546,7 @@ figcaption {
 
 .post-answer .post-blockquote .post-caption {
   color: #666;
-  font: bold 12px "Montserrat";
+  font: 12px "Noto Sans JP";
 }
 
 .post-footer {
@@ -763,12 +752,12 @@ figcaption {
   font: 400 14px "Noto Sans JP";
 }
 
-.pager-link .pager-prev {
+.pager-prev {
   color: #000;
   font: 400 24px "Noto Sans JP";
 }
 
-.pager-link .pager-next {
+.pager-next {
   color: #000;
   font: 400 24px "Noto Sans JP";
 }
