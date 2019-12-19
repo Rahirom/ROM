@@ -389,7 +389,9 @@ body {
   width: 100%
 }
 
-.is-grid .post {}
+.is-grid .post {
+  margin-top: 64px;
+}
 
 .post-title strong {
   font: 700 32px "Noto Sans JP";
@@ -426,7 +428,6 @@ body {
   text-align: left
 }*/
 .post-header {
-  margin-top: 64px;
   margin-bottom: 48px;
 }
 
@@ -497,6 +498,10 @@ small {
 figcaption {
   margin-top: 14px;
   font: 400 14px "Noto Sans JP";
+}
+
+.is-active {
+  border-bottom: 1px solid #000;
 }
 
 .post-caption *+hr {
