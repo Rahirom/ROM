@@ -498,6 +498,7 @@ small {
 figcaption {
   margin-top: 14px;
   font: 400 14px "Noto Sans JP";
+  text-align: center;
 }
 
 .is-active {
