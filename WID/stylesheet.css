@@ -1058,6 +1058,10 @@ figcaption {
     margin-bottom: 0px;
   }
 
+  .post {
+    margin-top: 96px;
+  }
+
   .container {
     padding-left: 16px;
     padding-right: 16px;
