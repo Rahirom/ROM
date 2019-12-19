@@ -495,7 +495,8 @@ small {
 }
 
 figcaption {
-  margin-top: 14px font-weight: 400 14px "Noto Sans JP";
+  margin-top: 14px;
+  font-weight: 400 14px "Noto Sans JP";
 }
 
 .post-caption *+hr {
