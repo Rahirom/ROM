@@ -93,14 +93,14 @@ body {
 
 .footer-icon {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   margin-right: 16px;
   top: -8px;
 }
 
 .footer-link {
   display: inline-block;
-  vertical-align: bottom;
+  vertical-align: middle;
   font: 400 14px "Noto Sans JP";
   color: #000;
   margin-left: 16px;
