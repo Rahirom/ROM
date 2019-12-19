@@ -27,6 +27,10 @@ ol, ul {
   list-style: inside
 }
 
+.mt-32{
+  margin:32px;
+}
+
 blockquote, q {
   width: 100%;
   quotes: none;
@@ -504,7 +508,7 @@ figcaption {
 
 
 .is-active {
-  border-bottom: 1px solid #000;
+  background: linear-gradient(transparent 55%, #F5FF00 20%);
 }
 
 .post-caption *+hr {
@@ -762,7 +766,17 @@ figcaption {
   color: #000;
   font: 400 14px "Noto Sans JP";
   vertical-align: center;
+  text-decoration: underline;
 }
+
+.pager-link:hover{
+  color: #000;
+  font: 400 14px "Noto Sans JP";
+  vertical-align: center;
+  text-decoration: none;
+}
+
+
 
 .pager-prev {
   color: #000;
