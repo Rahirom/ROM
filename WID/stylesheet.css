@@ -508,7 +508,9 @@ figcaption {
 
 
 .is-active {
-  background: linear-gradient(transparent 55%, #F5FF00 20%);
+  text-decoration: none;
+  font: 700 14px "Noto Sans JP";
+  background: linear-gradient(transparent 55%, #F5FF00 12%);
 }
 
 .post-caption *+hr {
@@ -781,11 +783,14 @@ figcaption {
 .pager-prev {
   color: #000;
   font: 400 24px "Noto Sans JP";
+  vertical-align: center;
+  text-decoration: none;
 }
 
 .pager-next {
   color: #000;
   font: 400 24px "Noto Sans JP";
+  text-decoration: none;
 }
 
 @media screen and (max-width: 870px) {
