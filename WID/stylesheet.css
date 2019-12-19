@@ -474,16 +474,20 @@ body {
 .post-caption h4 {
   font: 700 20px "Noto Sans JP";
   margin-top: 48px;
+  margin-bottom: 16px;
 }
 
 .post-caption h5 {
   font: 700 18px "Noto Sans JP";
   margin-top: 48px;
+  margin-bottom: 16px;
 }
 
 .post-caption h6 {
   font: 700 16px "Noto Sans JP";
   margin-top: 48px;
+  margin-bottom: 16px;
+
 }
 
 p {
@@ -569,7 +573,6 @@ figcaption {
 
 .post-tag-list {
   display: inline;
-  ;
   position: relative;
   width: 70%;
 }
@@ -1023,7 +1026,7 @@ figcaption {
     display: inline-block;
     outline: none;
     text-align: center;
-    width: 70px
+    width: 100px
   }
 
   .menu-slash {
