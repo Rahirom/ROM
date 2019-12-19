@@ -490,12 +490,12 @@ p {
 }
 
 small {
-  font: 400 10px "Noto Sans JP";
+  font: 400 12px "Noto Sans JP";
   line-height: 1.75em;
 }
 
 figcaption {
-  margin-top: 16px font-weight: 400 14px "Noto Sans JP";
+  margin-top: 14px font-weight: 400 14px "Noto Sans JP";
 }
 
 .post-caption *+hr {
