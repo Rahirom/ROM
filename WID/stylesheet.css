@@ -507,11 +507,6 @@ figcaption {
 
 
 
-.is-active {
-  text-decoration: none;
-  font: 700 14px "Noto Sans JP";
-  background: linear-gradient(transparent 55%, #F5FF00 12%);
-}
 
 .post-caption *+hr {
   margin-top: 16px
@@ -776,6 +771,13 @@ figcaption {
   font: 400 14px "Noto Sans JP";
   vertical-align: center;
   text-decoration: none;
+}
+
+
+.is-active {
+  text-decoration: none !important;
+  font: 700 14px "Noto Sans JP" !important;
+  background: linear-gradient(transparent 55%, #F5FF00 12%) ;
 }
 
 
