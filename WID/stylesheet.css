@@ -750,6 +750,7 @@ figcaption {
 .pager-link {
   color: #000;
   font: 400 14px "Noto Sans JP";
+  vertical-align: center;
 }
 
 .pager-prev {
