@@ -70,6 +70,23 @@ body {
   overflow-x: hidden
 }
 
+p {
+  font: 400 16px "Noto Sans JP";
+  line-height: 1.75em;
+}
+
+small {
+  font: 400 12px "Noto Sans JP";
+  line-height: 1.75em;
+}
+
+figcaption {
+  margin-top: 14px;
+  font: 400 14px "Noto Sans JP";
+  text-align: center;
+}
+
+
 .clear {
   clear: both
 }
@@ -78,12 +95,17 @@ body {
   height: 64px;
   width: 100%;
   background-image: url(main_vi.png);
+
   background-size: cover;
   padding-top: 16px;
   padding-bottom: 20px;
-  padding-left: 16%;
-  padding-right: 16%;
   margin-top: 40px;
+}
+
+.footer-wrapper {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-menu {
@@ -127,8 +149,6 @@ body {
 .header {
   display: table;
   padding-top: 64px;
-  padding-left: 16%;
-  padding-right: 16%;
   position: relative;
   width: 100%;
   background-image: url(main_vi.png);
@@ -136,6 +156,9 @@ body {
 }
 
 .header-wrapper {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
   color: #fff;
   display: relative;
   text-align: left;
@@ -270,7 +293,7 @@ body {
   display: inline-block;
   outline: none;
   text-align: center;
-  width: 70px
+  width: 100px
 }
 
 .notes {
@@ -313,18 +336,6 @@ body {
 .more_notes_link {
   font-size: 14px;
   margin-top: 16px
-}
-
-.disqus-wrapper {
-  color: #888;
-  font: 12px 'Montserrat';
-  margin: 0 auto 50px;
-  padding: 25px;
-}
-
-.disqus-link {
-  display: block;
-  margin-top: 10px
 }
 
 .pager {
@@ -490,21 +501,7 @@ body {
 
 }
 
-p {
-  font: 400 16px "Noto Sans JP";
-  line-height: 1.75em;
-}
 
-small {
-  font: 400 12px "Noto Sans JP";
-  line-height: 1.75em;
-}
-
-figcaption {
-  margin-top: 14px;
-  font: 400 14px "Noto Sans JP";
-  text-align: center;
-}
 
 .is-active {
   border-bottom: 1px solid #000;
@@ -530,7 +527,7 @@ figcaption {
   text-align: center;
 }
 
-. .post-header-link:before {
+.post-header-link:before {
   content: '\203A';
   display: block;
   float: left;
@@ -543,7 +540,7 @@ figcaption {
 }
 
 .read_more {
-  font: bold 14px "Montserrat";
+  font: bold 14px "Noto Sans JP";
 }
 
 .read_more:after {
@@ -778,6 +775,26 @@ figcaption {
 }
 
 @media screen and (max-width: 870px) {
+
+  .header {
+    display: table;
+    padding-top: 64px;
+    position: relative;
+    width: 100%;
+    background-image: url(main_vi.png);
+    background-size: cover;
+  }
+
+  .header-wrapper {
+    color: #fff;
+    margin-left: 16%;
+    margin-right: 16%;
+    display: relative;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+
   .container {
     padding-left: 16%;
     padding-right: 16%;
@@ -961,7 +978,6 @@ figcaption {
     top: 14px;
   }
 
-  /* 表示された時用のCSS */
   .nav-open .global-nav {
     right: 0;
     visibility: visible;
@@ -1068,7 +1084,7 @@ figcaption {
 
   .footer-icon {
     display: run-in;
-    margin-right: 24px;
+    margin-right: 16px;
   }
 
   .footer a {
@@ -1089,7 +1105,7 @@ figcaption {
   }
 
   .post-sns-list {
-    margin-top: 16px;
+    margin-top: 32px;
     float: none;
     display: block;
   }
