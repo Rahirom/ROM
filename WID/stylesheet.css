@@ -404,6 +404,9 @@ figcaption {
   width: 100%
 }
 
+.post {
+  margin-top: 64px;
+}
 
 .post-title strong {
   font: 700 32px "Noto Sans JP";
@@ -458,7 +461,6 @@ figcaption {
 
 .post-caption blockquote {
   border-left: 2px solid #ccc;
-  margin: 16px 0 16px 16px;
   padding-left: 16px
 }
 
@@ -523,6 +525,7 @@ figcaption {
 
 .post-caption figure {
   text-align: center;
+  margin-top: 16px;
 }
 
 .post-header-link:before {
@@ -1077,7 +1080,7 @@ figcaption {
   }
 
   .post {
-    padding-top: 64px;
+    padding-top: 48px;
   }
 
   .container {
