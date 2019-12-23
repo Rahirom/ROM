@@ -1081,6 +1081,7 @@ figcaption {
 
   .post {
     padding-top: 48px;
+    margin-top: 0px;
   }
 
   .container {
