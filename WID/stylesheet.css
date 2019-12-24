@@ -919,7 +919,7 @@ figcaption {
   .header-description {
     font-size: 14px;
     line-height: 24px;
-    padding-bottom: 32px;
+    
   }
 
   .header-title {
@@ -1085,6 +1085,7 @@ figcaption {
   .container {
     padding-left: 32px;
     padding-right: 32px;
+    padding-top: 0px;
     margin-top: 322px;
   }
 
