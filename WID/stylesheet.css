@@ -871,6 +871,10 @@ figcaption {
     padding-bottom: 0px !important;
   }
 
+  .tmblr-iframe-pushdown{
+    display:none;
+  }
+
   .pc-only {
     display: none;
   }
