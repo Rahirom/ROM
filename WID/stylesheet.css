@@ -913,7 +913,7 @@ figcaption {
     -webkit-order: 2;
     order: 2;
     display: block;
-    margin-top: 32px;
+    margin-top: 0px;
     padding-bottom: 0px;
   }
 
