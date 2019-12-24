@@ -873,6 +873,8 @@ figcaption {
 
   .tmblr-iframe-pushdown{
     display:none;
+    margin: 0px !important;
+    padding: 0px !important;
   }
 
   .pc-only {
