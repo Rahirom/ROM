@@ -427,7 +427,7 @@ small{
   font-size: 12px;
   text-align: center;
 }
-  
+
   body {
     background-color: #EBEAE9;
     margin: 0;
@@ -548,12 +548,12 @@ small{
     width:40%;
     height:360px;;
   }
-  
+
   .schedule-box{
    margin-top:24px;
-   
+
   }
-  
+
   .schedule-detail{
     margin-top:0;!important
     top:-8px;
@@ -593,6 +593,15 @@ small{
     margin:0;
     padding:0;
     margin-bottom:40px;
+  }
+
+  .suzuri-widget-product{
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .suzuri-widget-product-wrap {
+
   }
 
   .footer{
