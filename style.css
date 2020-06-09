@@ -67,6 +67,11 @@ img{
     width:100%;
   }
 
+  ul{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:16px:
+  }
+
   .wrap {
     padding: 0;
     margin: 0;
@@ -78,6 +83,7 @@ img{
     height: 40px;
     margin-top: 0px;
     border-bottom: solid 1px #232323;
+    margin-bottom:32px;
   }
 
   .pc-logo{
@@ -128,16 +134,17 @@ img{
 
     .main-heading {
       position: relative;
-      margin-left: 8px;
-      padding: 0;
 
+      padding: 0;
+      padding-left: 8px;
     }
 
     .m-h-text {
 
-      margin-left: 16px;
-      margin-right: 16px;
+      padding-left: 16px;
+      padding-right: 16px;
       position: relative;
+      margin-bottom:32px;
     }
 
     .m-h-content{
@@ -147,45 +154,94 @@ img{
     }
 
     .m-h-icon {
-      position: relative;
+      margin-top:32px;
+      position: block;
+      width:100%;
     }
 
     .sns{
-      display: flex;
+      display: inline-block;
       padding:0;
       margin:0;
-      margin-left: 8px;
+      padding-left: 8px;
+      padding-top:40px;
       padding-bottom: 40px;
+      width:100%;
     }
 
     .sns-icon{
-      width:20%;
-      max-width:40px;
-      display: inline-block;
-      position: relative;
-      margin: 8px;
+      width:116px;
+      height:37px;
+      display: flex;
+      margin-right: 16px;
+      margin-bottom:16px;
       float: left;
+      filter: drop-shadow(4px 4px 4px rgba(0,0,0,0.1));
     }
 
 
     .border {
       margin: 0;
       padding:0;
-      margin-left: 8px;
       margin-top: 8px;
-      border-left: solid 1px #232323;
-      border-top: solid 1px #232323;
       overflow:hidden scroll;
       margin-bottom:56px;
       padding-left: 8px;
       padding-top: 8px;
+      width:90%;
     }
+
+
+      .press{
+        height: 360px;
+        overflow:scroll;
+        border-top: solid 1px #232323;
+      }
+
+      .schedule-box{
+       margin-top:16px;
+       width:100%;
+       border-bottom: solid 1px #232323;
+        }
+
+      .tag{
+        display: inline-block;
+        padding:2px;
+        background-color: #232323;
+        color: #ffffff;
+        bottom:-12px;
+      }
+
+      .date{
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .schedule-detail{
+        margin-top:0;!important
+        top:-8px;
+      }
+
+      .c-block {
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top:32px;
+      }
+
 
 
     .schedule-box{
      margin-top:24px;
      border-bottom: solid 1px #232323;
 
+    }
+
+    .tag{
+      display: inline-block;
+      padding:2px;
+      background-color: #232323;
+      color: #ffffff;
+      bottom:-12px;
     }
 
     .schedule-detail{
@@ -220,6 +276,15 @@ img{
       margin-bottom:40px;
     }
 
+    .suzuri-widget-product{
+      margin-left:auto;
+      margin-right:auto;
+    }
+
+    .suzuri-widget-product-wrap {
+
+    }
+
     .footer{
       margin-left: 16px;
       margin-right: 16px;
@@ -239,6 +304,11 @@ img{
     padding: 0;
   }
 
+  ul{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:16px:
+  }
+
   .wrap {
     padding: 0;
     margin: 0;
@@ -249,7 +319,7 @@ img{
     width: 100%;
     height: 40px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 40px;
     border-bottom: solid 1px #232323;
   }
 
@@ -300,7 +370,6 @@ img{
     position: relative;
     width: 100% !important;
     background-color: #cccccc;
-
   }
 
   .main-heading {
@@ -327,25 +396,38 @@ img{
 
   }
 
+
+
   .m-h-icon {
     display: inline-block;
     position: relative;
-    width: 29%;
+    width: 33%;
   }
 
   .sns{
     width:100%;
     display: flex;
+    margin-top:24px;
   }
 
   .sns-icon{
-    width:25%;
-    min-width:36px;
-    display: inline-block;
-    position: relative;
+    width:120px;
+    height:37px;
+    display: flex;
     margin-right: 16px;
     margin-bottom:16px;
     float: left;
+    filter: drop-shadow(4px 4px 4px rgba(0,0,0,0.1));
+  }
+
+  .sns-icon :hover{
+    width:120px;
+    height:37px;
+    display: flex;
+    margin-right: 16px;
+    margin-bottom:16px;
+    float: left;
+    filter: drop-shadow(0px 0px 4px rgba(0,0,0,0.2));
   }
 
 
@@ -359,16 +441,65 @@ img{
     overflow:scroll;
   }
 
-  .schedule-box{
-   margin-top:24px;
-   border-bottom: solid 1px #232323;
 
-  }
 
-  .schedule-detail{
-    margin-top:0;!important
-    top:-8px;
-  }
+
+    .press{
+      height: 420px;
+      overflow:scroll;
+      border-top: solid 1px #232323;
+    }
+
+    .schedule-box{
+     margin-top:16px;
+     border-bottom: solid 1px #232323;
+
+    }
+
+    .tag{
+      display: inline-block;
+      padding:2px;
+      background-color: #232323;
+      color: #ffffff;
+      bottom:-12px;
+    }
+
+    .date{
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .schedule-detail{
+      margin-top:0;!important
+      top:-8px;
+    }
+
+    .c-block {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
+    .c-2colm{
+      display: flex;
+      width:100%;
+      padding-top:16px;
+    }
+
+    .c-card-left{
+      display:inline-block;
+      width:50%;
+
+    }
+
+    .c-card-right{
+      float: right;
+      display: inline-block;
+      width:50%;
+      padding:16px;
+      margin-right: 16px;
+      border-right: solid 1px #232323;
+    }
+
 
   .c-colm{
     position: relative;
@@ -399,7 +530,14 @@ img{
     padding:0;
   }
 
+  .suzuri-widget-product{
+    margin-left:auto;
+    margin-right:auto;
+  }
 
+  .suzuri-widget-product-wrap {
+
+  }
 
   .c-c-text{
     width:100%;
@@ -561,21 +699,33 @@ small{
   .m-h-icon {
     display: inline-block;
     position: relative;
-    width: 29%;
+    width: 33%;
   }
 
   .sns{
     width:100%;
     display: flex;
+    margin-top:24px;
   }
 
   .sns-icon{
-    width:25%;
-    display: inline-block;
-    position: relative;
+    width:120px;
+      height:37px;
+    display: flex;
     margin-right: 16px;
     margin-bottom:16px;
     float: left;
+    filter: drop-shadow(4px 4px 4px rgba(0,0,0,0.1));
+  }
+
+  .sns-icon :hover{
+    width:120px;
+    height:37px;
+    display: flex;
+    margin-right: 16px;
+    margin-bottom:16px;
+    float: left;
+    filter: drop-shadow(0px 0px 4px rgba(0,0,0,0.2));
   }
 
   .border {
@@ -616,15 +766,20 @@ small{
     top:-8px;
   }
 
+  .c-block {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
   .c-2colm{
     display: flex;
     width:100%;
+    padding-top:16px;
   }
 
   .c-card-left{
     display:inline-block;
     width:50%;
-    padding:16px;
 
   }
 
@@ -653,8 +808,8 @@ small{
     float:right;
 
     margin-top:40px;
-    margin-left:16px;
     margin-right:16px;
+
     border-top: solid 1px #232323;
   }
 
@@ -687,5 +842,9 @@ small{
     margin-right: 16px;
     margin-top: 120px;
     border-top: solid 1px #232323;
+  }
+
+  .m-b-80{
+    margin-bottom:120px;
   }
 }
