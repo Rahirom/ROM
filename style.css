@@ -100,6 +100,10 @@ img{
   .hero-header {
   }
 
+  .m-t-24{
+    margin-top:24px;
+  }
+
   .hero-text {
     margin-left: 16px;
     margin-right: 16px;
@@ -117,6 +121,8 @@ img{
     width: 100% !important;
     margin: 0;
     padding: 0;
+    background-color: #cccccc;
+
   }
 
 
@@ -173,6 +179,18 @@ img{
       margin-bottom:56px;
       padding-left: 8px;
       padding-top: 8px;
+    }
+
+
+    .schedule-box{
+     margin-top:24px;
+     border-bottom: solid 1px #232323;
+
+    }
+
+    .schedule-detail{
+      margin-top:0;!important
+      top:-8px;
     }
 
     .c-colm{
@@ -281,6 +299,8 @@ img{
   .youtube iframe {
     position: relative;
     width: 100% !important;
+    background-color: #cccccc;
+
   }
 
   .main-heading {
@@ -296,7 +316,7 @@ img{
     padding-right:16px;
     display: inline-block;
     position: relative;
-    width: 70%;
+    width: 66%;
   }
 
   .m-h-content{
@@ -334,9 +354,20 @@ img{
     padding: 8px;
     border-left: solid 1px #232323;
     border-top: solid 1px #232323;
-    width:40%;
+    width:33%;
     height:360px;;
     overflow:scroll;
+  }
+
+  .schedule-box{
+   margin-top:24px;
+   border-bottom: solid 1px #232323;
+
+  }
+
+  .schedule-detail{
+    margin-top:0;!important
+    top:-8px;
   }
 
   .c-colm{
@@ -422,6 +453,11 @@ p{
   font-size:16px:
 }
 
+ul{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size:16px:
+}
+
 small{
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 12px;
@@ -496,6 +532,7 @@ small{
   .youtube iframe {
     position: relative;
     width: 100%;
+    background-color: #cccccc;
   }
 
   .main-heading {
@@ -511,7 +548,7 @@ small{
     padding-right:16px;
     display: inline-block;
     position: relative;
-    width: 70%;
+    width: 66%;
   }
 
   .m-h-content{
@@ -542,16 +579,36 @@ small{
   }
 
   .border {
-    padding: 8px;
+    padding: 16px;
     border-left: solid 1px #232323;
     border-top: solid 1px #232323;
-    width:40%;
-    height:360px;;
+    width:33%;
+    height:480px;
+  }
+
+  .press{
+    height: 420px;
+    overflow:scroll;
+    border-top: solid 1px #232323;
   }
 
   .schedule-box{
-   margin-top:24px;
+   margin-top:16px;
+   border-bottom: solid 1px #232323;
 
+  }
+
+  .tag{
+    display: inline-block;
+    padding:2px;
+    background-color: #232323;
+    color: #ffffff;
+    bottom:-12px;
+  }
+
+  .date{
+    display: inline-block;
+    vertical-align: middle;
   }
 
   .schedule-detail{
@@ -559,10 +616,31 @@ small{
     top:-8px;
   }
 
+  .c-2colm{
+    display: flex;
+    width:100%;
+  }
+
+  .c-card-left{
+    display:inline-block;
+    width:50%;
+    padding:16px;
+
+  }
+
+  .c-card-right{
+    float: right;
+    display: inline-block;
+    width:50%;
+    padding:16px;
+    margin-right: 16px;
+    border-right: solid 1px #232323;
+  }
+
   .c-colm{
     position: relative;
     margin: 0;
-    margin-bottom:80px;
+    margin-bottom:32px;
     padding: 0;
     width: 100%;
     display: flex;
