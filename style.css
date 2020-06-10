@@ -13,14 +13,14 @@
 }
 
 h1 {
-  font-family: 'Audrey Medium';
+  font-family: 'Audrey Medium', sans-serif;
   font-size: 32px;
   margin-top: 0;
   padding: 0;
 }
 
 h2 {
-  font-family: 'Audrey Normal';
+  font-family: 'Audrey Normal', sans-serif;
   font-size: 28px;
   margin-top: 0;
   padding: 0;
@@ -29,7 +29,7 @@ h2 {
 }
 
 h3{
-  font-family: 'Noto Sans JP';
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 28px;
   margin: 0;
   padding: 0;
@@ -37,7 +37,9 @@ h3{
 
 h4{
   font-family: 'Noto Sans JP', sans-serif;
-  fontsize:24px;
+  fontsize:26px;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -58,6 +60,11 @@ img{
   table-layout:fixed;
 }
 
+ul{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size:16px:
+}
+
 /* SP */
 @media screen and (max-width: 480px) {
   body {
@@ -67,10 +74,7 @@ img{
     width:100%;
   }
 
-  ul{
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size:16px:
-  }
+
 
   .wrap {
     padding: 0;
@@ -164,16 +168,17 @@ img{
       padding:0;
       margin:0;
       padding-left: 8px;
+      padding-right:8px;
       padding-top:40px;
       padding-bottom: 40px;
-      width:100%;
+
     }
 
     .sns-icon{
       width:116px;
       height:37px;
       display: flex;
-      margin-right: 16px;
+      margin-right: 8px;
       margin-bottom:16px;
       float: left;
       filter: drop-shadow(4px 4px 4px rgba(0,0,0,0.1));
@@ -185,22 +190,26 @@ img{
       padding:0;
       margin-top: 8px;
       overflow:hidden scroll;
+      width:90%;
       margin-bottom:56px;
       padding-left: 8px;
+      padding-right: 8px;
       padding-top: 8px;
-      width:90%;
+
     }
 
 
       .press{
         height: 360px;
+        width:100%;
         overflow:scroll;
         border-top: solid 1px #232323;
       }
 
       .schedule-box{
-       margin-top:16px;
+       display: relative;
        width:100%;
+       margin-top:16px;
        border-bottom: solid 1px #232323;
         }
 
@@ -226,6 +235,10 @@ img{
         padding-left: 16px;
         padding-right: 16px;
         margin-top:32px;
+      }
+
+      .m-b-80{
+        margin-bottom:80px;
       }
 
 
