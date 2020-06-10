@@ -97,6 +97,32 @@ ul{
 
 /* SP */
 @media screen and (max-width: 480px) {
+
+  .btn:link{
+    display: inline-block;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: solid 2px #232323;
+    background-color: #EBEAE9;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:16px:
+    color: #232323;
+  }
+
+  .btn:visited{
+    color: #232323;
+    text-decoration: none;
+  }
+
+  .btn:hover{
+    color: #ffffff;
+    background-color: #232323;
+    border: solid 2px #232323;
+  }
+
   body {
     background-color: #EBEAE9;
     margin: 0;
