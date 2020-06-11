@@ -273,6 +273,8 @@ ul{
       .tag{
         display: inline-block;
         padding:2px;
+        padding-left: 4px;
+        padding-right: 4px;
         background-color: #232323;
         color: #ffffff;
         bottom:-12px;
@@ -312,6 +314,8 @@ ul{
       background-color: #232323;
       color: #ffffff;
       bottom:-12px;
+      padding-left: 4px;
+      padding-right: 4px;
     }
 
     .schedule-detail{
@@ -529,6 +533,8 @@ ul{
     .tag{
       display: inline-block;
       padding:2px;
+      padding-left: 4px;
+      padding-right: 4px;
       background-color: #232323;
       color: #ffffff;
       bottom:-12px;
@@ -821,6 +827,8 @@ small{
   .tag{
     display: inline-block;
     padding:2px;
+    padding-left: 4px;
+    padding-right: 4px;
     background-color: #232323;
     color: #ffffff;
     bottom:-12px;
